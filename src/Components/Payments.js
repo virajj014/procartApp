@@ -69,9 +69,9 @@ const Payments = ({ route, navigation }) => {
     }
 
     const sendemailtoadmin = (orderid) => {
-        const SERVICE_ID = 'service_2in6t8e';
-        const TEMPLATE_ID = 'template_6vwov5b';
-        const YOUR_Public_KEY = 'RcUy3r8XfxKesRLiy';
+        const SERVICE_ID = 'service_pvp2otu';
+        const TEMPLATE_ID = 'template_89616lc';
+        const YOUR_Public_KEY = 'DAp3E7yNKKBJKUWfe';
         const adminpanellink = 'https://f2admin.vercel.app/orderdetails/'+orderid;
         const message = {
             to_name: 'Admin Fresh Buy',
